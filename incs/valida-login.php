@@ -14,7 +14,7 @@ if($resultado_id){
     $dados_usuario = mysqli_fetch_array($resultado_id);
     
     if(isset($dados_usuario['usuario'])){
-
+        
     }
 }
 

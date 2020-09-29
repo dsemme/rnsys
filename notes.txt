@@ -1,0 +1,43 @@
+<h1>Ler página <button type="button" id="ler-pagina">Ler página</button> </h1>
+   <div id="conteudo-pagina-lida"></div>
+    
+   <script>
+   $(document).ready(function(){
+        $("#ler-pagina").click(function(){
+             
+            $(function(){
+                $("#conteudo-pagina-lida").load("pagina-lida.html"); 
+            });
+        })
+   });
+   </script>
+
+
+   https://tedk.com.br/artigos/javascript/carregar-uma-pagina-dentro-de-uma-div-com-ajax/
+
+   https://pt.stackoverflow.com/questions/76213/carregar-uma-p%C3%A1gina-dentro-de-uma-div
+
+   https://pt.stackoverflow.com/questions/211767/somar-inputs-com-jquery-e-tempo-real
+
+   https://www.alura.com.br/artigos/formatando-numeros-no-javascript#:~:text=Como%20queremos%20deixar%20a%20resposta,20.555%20%2C%20o%20valor%20fica%2020.56%20.
+
+
+   background-image: linear-gradient(to right, #8224e3 , #31d8cd)
+   background: var(--primary-color)
+   background-image: linear-gradient(to right, var(--gradient-start), var(--gradient-end)
+
+   text-shadow: 0px 3px 0px #b2a98f,
+                 0px 14px 10px rgba(0,0,0,0.15),
+                 0px 24px 2px rgba(0,0,0,0.1),
+                 0px 34px 30px rgba(0,0,0,0.1);
+
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+
+background-color: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
